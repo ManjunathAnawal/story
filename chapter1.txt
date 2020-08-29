@@ -1,1 +1,61 @@
-Hey , Iam Manjunath anawal here 
+Local repository
+--------------------------------------------------------------------
+
+Git init   			// working directory
+ls -a     			// check hidden files
+Git status 			// check untracked ,changed containt,commits of files 
+Git add file_name 		// add file to staging area 
+Git add .        		 // add all files to staging area
+Git commit -m "commit msg"	 // commit tracked file/files  to local repo
+Git log  			// check previous commits
+Git diff file_name 		// difference between file
+
+
+Remote repository
+---------------------------------------------------------------------
+//create repo in GitHub and copy URL of repo
+
+Git remote add origin URL        // add file/s to remote staging area
+Git push -u origin master	 // push commits to remote repo
+
+Touch .gitignore                 // create .gitignore file & put file name which r secret
+                                 // also use *.txt 
+
+XCODE PROJECT IGNORE FILE 
+--------------------------------------------------------------------------
+// create .giignore file and type all secret file name 
+
+Git init   			// working directory
+Git add .        		 // add all files to staging area
+Git commit -m "commit msg"       // commit tracked file/files  to local repo
+
+
+CLONING FROM GIT HUB 
+--------------------------------------------------------------------------
+Git clone URL                   // cloning project 
+
+
+CREATE BRANCH
+--------------------------------------------------------------------------
+git branch goldy
+git branch
+git checkout goldy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
